@@ -13,7 +13,7 @@ class WeightedCELoss(nn.Module):
         labels: a label with torch tensor type and has shape of (B, W, H)
             where B is batch size, N is number of classes, W and H is the width and height of outputs and labels
     Examples:
-        >>> criteria = DiceLoss()
+        >>> criteria = WeightedCELoss()
         >>> outputs = model(images)
         >>> loss = criteria(outputs, labels)
     """
