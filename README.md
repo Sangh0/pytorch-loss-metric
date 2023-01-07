@@ -10,7 +10,7 @@
 - Pixel Accuracy [(code)](https://github.com/Sangh0/pytorch-loss-metric/blob/main/segmentation/pixel_accuracy.py)
 
 ### Detection task
-- IoU [(code)](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/iou.py) [(paper)](https://arxiv.org/abs/1902.09630)
+- IoU [(code)](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/iou.py)
 - Generalized IoU [(code)](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/giou.py) [(paper)](https://arxiv.org/abs/1911.08287)
 - Distance IoU [(code)](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/diou.py) [(paper)](https://arxiv.org/abs/1911.08287)
 - Focal Loss [(code)](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/focal_loss.py) [(paper)](https://arxiv.org/abs/1708.02002)
