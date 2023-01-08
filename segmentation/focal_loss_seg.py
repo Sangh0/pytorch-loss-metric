@@ -20,7 +20,7 @@ class FocalLoss(nn.Module):
         >>> outputs = model(images)
         >>> loss = criteria(outputs, labels)
     """
-    def __init__(self, alpha: float=0.25, gamma: float=2., weight: Optional[List]=None, reduction: str='mean'):
+    def __init__(self, alpha: float=0.25, gamma: float=2., weight: Optional[torch.Tensor]=None, reduction: str='mean'):
         super(FocalLoss, self).__init__()
         self.alpha = alpha
         self.gamma = gamma
