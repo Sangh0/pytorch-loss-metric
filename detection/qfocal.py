@@ -10,7 +10,7 @@ class QualityFocalLoss(nn.Module):
     Args:
         pos_weight: a weight for positive sample
         gamma: a hyperparameter for focusing the easy examples 
-            (In gfocal loss paper, this is same role as the alpha)
+            (In gfocal loss paper, this is same role as the beta)
         alpha: a hyperparameter to weight easy and hard samples
             (In gfocal loss paper, it does not exist)
         reduction: the output type that can be selected from none, sum and mean
