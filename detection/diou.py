@@ -15,7 +15,8 @@ class DIoULoss(nn.Module):
     Examples:
         >>> diou_loss = DIoULoss()
         >>> outputs = model(images)
-        >>> iou = diou_loss(outputs, labels)
+        >>> loss = diou_loss(outputs, labels)
+        >>> loss.backward()
     """
     def __init__(self, smooth: float=1e-9, reduction: str='mean'):
         super(DIoULoss, self).__init__()
