@@ -25,6 +25,7 @@ from detection.diou import DIoULoss
 from detection.ciou import CIoULoss
 from detectionl.focal_loss import FocalLoss
 from detection.qfocal_loss import QualityFocalLoss
+from detection.dfocal_loss import DistributionFocalLoss
 
 from segmentation.ohem import OhemCELoss
 from segmentation.weighted_celoss import WeightedCELoss
