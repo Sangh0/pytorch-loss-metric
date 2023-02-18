@@ -15,7 +15,8 @@ class GIoULoss(nn.Module):
     Examples:
         >>> giou_loss = GIoULoss()
         >>> outputs = model(images)
-        >>> iou = giou_loss(outputs, labels)
+        >>> loss = giou_loss(outputs, labels)
+        >>> loss.backward()
     """
     def __init__(self, smooth: float=1e-9, reduction: str='mean'):
         super(GIoULoss, self).__init__()
