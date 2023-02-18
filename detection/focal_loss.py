@@ -15,6 +15,7 @@ class FocalLoss(nn.Module):
         >>> loss_func = FocalLoss()
         >>> outputs = model(images)
         >>> loss = loss_func(outputs, labels)
+        >>> loss.backward()
     """
     def __init__(self, alpha: float=0.25, gamma: float=2., reduction: str='mean'):
         super(FocalLoss, self).__inti__()
