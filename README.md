@@ -13,14 +13,18 @@
 - IoU [(code)](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/iou.py)
 - Generalized IoU [(code)](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/giou.py) [(paper)](https://arxiv.org/abs/1911.08287)
 - Distance IoU [(code)](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/diou.py) [(paper)](https://arxiv.org/abs/1911.08287)
+- Complete IoU [(code)](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/ciou.py) [(paper)](https://arxiv.org/abs/1911.08287)
 - Focal Loss [(code)](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/focal_loss.py) [(paper)](https://arxiv.org/abs/1708.02002)
+- Quality Focal Loss [(code)](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/qfocal.py) [(paper)](https://arxiv.org/abs/2006.04388)
 
 
 ```python
 from detection.iou import IoULoss
 from detection.giou import GIoULoss
 from detection.diou import DIoULoss
+from detection.ciou import CIoULoss
 from detectionl.focal_loss import FocalLoss
+from detection.qfocal_loss import QualityFocalLoss
 
 from segmentation.ohem import OhemCELoss
 from segmentation.weighted_celoss import WeightedCELoss
