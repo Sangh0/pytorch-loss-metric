@@ -14,7 +14,8 @@ class IoULoss(nn.Module):
     Examples:
         >>> iou_loss = IoULoss()
         >>> outputs = model(images)
-        >>> iou = iou_loss(outputs, labels)
+        >>> loss = iou_loss(outputs, labels)
+        >>> loss.backward()
     """
     def __init__(self, smooth: float=1e-9, reduction: str='mean'):
         super(IoULoss, self).__init__()
