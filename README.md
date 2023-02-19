@@ -16,6 +16,7 @@
 - Complete IoU [(code)](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/ciou.py) [(paper)](https://arxiv.org/abs/1911.08287)
 - Focal Loss [(code)](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/focal_loss.py) [(paper)](https://arxiv.org/abs/1708.02002)
 - Quality Focal Loss [(code)](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/qfocal.py) [(paper)](https://arxiv.org/abs/2006.04388)
+- Distribution Focal Loss [(code)](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/dfocal.py) [(paper)](https://arxiv.org/abs/2006.04388)
 
 
 ```python
