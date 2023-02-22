@@ -17,6 +17,7 @@
 - Focal Loss [(code)](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/focal_loss.py) [(paper)](https://arxiv.org/abs/1708.02002)
 - Quality Focal Loss [(code)](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/qfocal.py) [(paper)](https://arxiv.org/abs/2006.04388)
 - Distribution Focal Loss [(code)](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/dfocal.py) [(paper)](https://arxiv.org/abs/2006.04388)
+- Varifoca Loss [(code)](https://github.com/Sangh0/pytorch-loss-metric/blob/main/detection/varifocal_loss.py) [(paper)](https://arxiv.org/abs/2008.13367)
 
 
 ```python
@@ -27,6 +28,7 @@ from detection.ciou import CIoULoss
 from detectionl.focal_loss import FocalLoss
 from detection.qfocal_loss import QualityFocalLoss
 from detection.dfocal_loss import DistributionFocalLoss
+from detection.varifocal_loss import VariFocalLoss
 
 from segmentation.ohem import OhemCELoss
 from segmentation.weighted_celoss import WeightedCELoss
